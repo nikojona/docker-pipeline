@@ -15,7 +15,7 @@
     - name: create container
       docker_container:
         name: container_by_jenkins
-        image: nicko/apache-ubuntu:latest
+        image: nikojona/apache-ubuntu:latest
         state: started
         published_ports:
           - 9000:80
