@@ -5,7 +5,7 @@
         name: python-docker
         state: present
       when:
-      - ansible_distribution == "CwntOS"
+      - ansible_distribution == "CentOS"
     - name: install python-docker ubuntu
       apt:
         name: python-docker
